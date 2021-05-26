@@ -93,7 +93,7 @@
 //
 // Wireshark also does a pretty good job at parsing the MySQL protocol.
 
-extern crate mysql_common as myc;
+pub extern crate mysql_common as myc;
 
 use std::collections::HashMap;
 use std::io;
